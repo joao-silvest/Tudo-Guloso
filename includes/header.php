@@ -16,7 +16,7 @@
                                     <li><a href="#">Drinks</a></li>
                                 </ul>
                             </li>
-                            <li class="scroll-to-section"><a href="#reservation">Envie sua receita</a></li> 
+                            <li class="scroll-to-section"><a href="#send-recipe">Envie sua receita</a></li> 
                         </ul>        
                         <a class='menu-trigger'>
                             <span>Menu</span>

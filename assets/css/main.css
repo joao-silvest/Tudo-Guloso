@@ -1,37 +1,7 @@
-/*
-
-TemplateMo 558 Klassy Cafe
-
-https://templatemo.com/tm-558-klassy-cafe
-
-*/
-
-/* ---------------------------------------------
-Table of contents
-------------------------------------------------
-01. font & reset css
-02. reset
-03. global styles
-04. header
-05. banner
-06. features
-07. testimonials
-08. contact
-09. footer
-10. preloader
-11. search
-12. portfolio
-
---------------------------------------------- */
-/* 
----------------------------------------------
-font & reset css
---------------------------------------------- 
-*/
 @import url("https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900");
 /* 
 ---------------------------------------------
-reset
+reset de algumas tags html para sobrepor o bootstrap
 --------------------------------------------- 
 */
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, div
@@ -108,11 +78,6 @@ p {
   color: #2a2a2a;
 }
 
-/* 
----------------------------------------------
-global styles
---------------------------------------------- 
-*/
 html,
 body {
   background: #fff;
@@ -199,13 +164,6 @@ body {
   font-weight: 900;
   color: #2a2a2a;
 }
-
-
-/* 
----------------------------------------------
-header
---------------------------------------------- 
-*/
 
 .background-header {
   background-color: #fff;
@@ -641,12 +599,6 @@ header
 }
 
 
-/* 
----------------------------------------------
-banner
---------------------------------------------- 
-*/
-
 #top {
   padding-top: 100px;
 }
@@ -698,7 +650,6 @@ banner
   display: inline-block;
 }
 
-/* ==== Main CSS === */
 .img-fill{
   width: 100%;
   display: block;
@@ -741,7 +692,6 @@ banner
   padding: 0;
 }
 
-/* ==== Slider Style === */
 .Modern-Slider .item .img-fill{
   height:100%;
   max-height: 700px;
@@ -825,8 +775,6 @@ ul.slick-dots {
 
 .Modern-Slider {background:#000;}
 
-
-/* ==== Slick Slider Css Ruls === */
 .slick-slider{position:relative;display:block;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;-webkit-touch-callout:none;-khtml-user-select:none;-ms-touch-action:pan-y;touch-action:pan-y;-webkit-tap-highlight-color:transparent}
 .slick-list{position:relative;display:block;overflow:hidden;margin:0;padding:0}
 .slick-list:focus{outline:none}.slick-list.dragging{cursor:hand}
@@ -839,13 +787,6 @@ ul.slick-dots {
 .slick-initialized .slick-slide{display:block}
 .slick-loading .slick-slide{visibility:hidden}
 .slick-vertical .slick-slide{display:block;height:auto;border:1px solid transparent}
-
-
-/*
----------------------------------------------
-about
----------------------------------------------
-*/
 
 #about {
   margin-top: 20px;
@@ -895,17 +836,9 @@ about
   opacity: .9;
 }
 
-
-/*
----------------------------------------------
-menu
----------------------------------------------
-*/
-
 #menu {
   margin-top: 120px;
   background-color: #fffafa;
-  padding: 120px 0px;
 }
 
 #menu .section-heading {
@@ -967,7 +900,7 @@ menu
   color: #fff;
 }
 
-#menu .price h6 {
+#menu h6 {
   position: absolute;
   width: 70px;
   height: 70px;
@@ -1053,158 +986,29 @@ menu
   content: '\f105';
 }
 
-
-/*
----------------------------------------------
-chefs
----------------------------------------------
-*/
-
-#chefs {
-  padding-top: 120px;
-}
-
-#chefs .section-heading {
-  margin-bottom: 70px;
-}
-
-#chefs .section-heading h6 {
-  padding-left: 0px;
-}
-
-#chefs .section-heading h6:before {
-  display: none;
-}
-
-#chefs .chef-item {
-  text-align: center;
-  border: 1px solid #afafaf;
-  padding: 5px;
-  transition: all .5s;
-  border-radius: 3px;
-}
-
-#chefs .chef-item:hover {
-  border-color: #fb5849;
-}
-
-#chefs .chef-item:hover .down-content h4 {
-  color: #fb5849;
-}
-
-#chefs .chef-item .thumb {
-  position: relative;
-}
-
-#chefs .chef-item .thumb img {
-  width: 100%;
-  overflow: hidden;
-  position: relative;
-}
-
-#chefs .chef-item .thumb .overlay {
-  position: absolute;
-  background-color: #2a2a2a;
-  border-radius: 3px;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  z-index: 1;
-  opacity: 0;
-  visibility: hidden;
-  transition: all .3s;
-}
-
-#chefs .chef-item .thumb ul.social-icons {
-  position: absolute;
-  z-index: 11;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 100%;
-  transition: all .5s;
-  opacity: 0;
-  visibility: hidden;
-}
-
-#chefs .chef-item .thumb ul.social-icons li {
-  display: inline-block;
-  margin: 0px 5px;
-}
-
-#chefs .chef-item .thumb ul.social-icons li a {
-  width: 40px;
-  height: 40px;
-  background-color: #fff;
-  color: #2a2a2a;
-  border-radius: 50%;
-  text-align: center;
-  line-height: 40px;
-  display: inline-block;
-  transition: all .5s;
-}
-
-#chefs .chef-item .thumb ul.social-icons li a:hover {
-  background-color: #fb5849;
-}
-
-#chefs .chef-item:hover .overlay {
-  opacity: .9;
-  visibility: visible;
-}
-
-#chefs .chef-item:hover ul.social-icons {
-  opacity: 1;
-  visibility: visible;
-}
-
-#chefs .chef-item .down-content {
-  padding: 20px 0px;
-}
-
-#chefs .chef-item .down-content h4 {
-  transition: all .3s;
-  font-size: 20px;
-  font-weight: 700;
-  color: #2a2a2a;
-}
-
-#chefs .chef-item .down-content span {
-  font-size: 14px;
-  color: #2a2a2a;
-}
-
-
-/* 
----------------------------------------------
-reservation
---------------------------------------------- 
-*/
-
-#reservation .section-heading {
+#send-recipe .section-heading {
   margin-bottom: 30px;
 }
 
-#reservation .section-heading h6 {
+#send-recipe .section-heading h6 {
   color: #fff;
 }
 
-#reservation .section-heading h2 {
+#send-recipe .section-heading h2 {
   color: #fff;
   font-weight: 700;
 }
 
-#reservation .section-heading h6:before {
+#send-recipe .section-heading h6:before {
   background-color: #fff;
 }
 
-#reservation p {
+#send-recipe p {
   color: #fff;
   margin-bottom: 65px;
 }
 
-#reservation {
+#send-recipe {
   margin-top: 120px;
   padding: 120px 0px;
   background-image: url(../images/reservation-bg.jpg);
@@ -1213,16 +1017,16 @@ reservation
   background-size: cover;
 }
 
-#reservation .phone,
-#reservation .message {
+#send-recipe .phone,
+#send-recipe .message {
   background-color: #fff;
   border-radius: 5px;
   text-align: center;
   padding: 0px 0px 20px 0px;
 }
 
-#reservation .phone i,
-#reservation .message i {
+#send-recipe .phone i,
+#send-recipe .message i {
   width: 70px;
   height: 70px;
   display: inline-block;
@@ -1238,23 +1042,23 @@ reservation
   margin-right: auto;
 }
 
-#reservation .phone h4,
-#reservation .message h4 {
+#send-recipe .phone h4,
+#send-recipe .message h4 {
   font-size: 20px;
   font-weight: 700;
   margin-top: 15px;
   margin-bottom: 10px;
 }
 
-#reservation .phone span a,
-#reservation .message span a {
+#send-recipe .phone span a,
+#send-recipe .message span a {
   font-size: 14px;
   color: #2a2a2a;
   transition: all .3s;
 }
 
-#reservation .phone span a:hover,
-#reservation .message span a:hover {
+#send-recipe .phone span a:hover,
+#send-recipe .message span a:hover {
   color: #fb5849;
 }
 
@@ -1444,7 +1248,7 @@ offers
   margin-left: 15px;
 }
 
-#offers .tabs-content .price h6 {
+#offers .tabs-content h6 {
   position: absolute;
   top: 15px;
   right: 0;
