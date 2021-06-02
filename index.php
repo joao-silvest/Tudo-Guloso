@@ -55,7 +55,7 @@
                     <div class="item">
                         <div class='card card1'>
                             <div class='info'>
-                              <h1 class='title'>Chocolate Cake</h1>
+                              <h1 class='title'>Bolo de Chocolate</h1>
                               <p class='description'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sedii do eiusmod teme.</p>
                               <div class="main-text-button">
                                   <div class="scroll-to-section"><a href="#send-recipe">Veja a receita completa <i class="fa fa-angle-down"></i></a></div>
@@ -66,7 +66,7 @@
                     <div class="item">
                         <div class='card card2'>
                             <div class='info'>
-                              <h1 class='title'>Klassy Pancake</h1>
+                              <h1 class='title'>Panqueca Americana</h1>
                               <p class='description'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sedii do eiusmod teme.</p>
                               <div class="main-text-button">
                                   <div class="scroll-to-section"><a href="#send-recipe">Veja a receita completa <i class="fa fa-angle-down"></i></a></div>
@@ -77,7 +77,7 @@
                     <div class="item">
                         <div class='card card3'>
                             <div class='info'>
-                              <h1 class='title'>Tall Klassy Bread</h1>
+                              <h1 class='title'>Beirute</h1>
                               <p class='description'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sedii do eiusmod teme.</p>
                               <div class="main-text-button">
                                   <div class="scroll-to-section"><a href="#send-recipe">Veja a receita completa <i class="fa fa-angle-down"></i></a></div>
@@ -88,7 +88,7 @@
                     <div class="item">
                         <div class='card card4'>
                             <div class='info'>
-                              <h1 class='title'>Blueberry CheeseCake</h1>
+                              <h1 class='title'>CheeseCake de Blueberry</h1>
                               <p class='description'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sedii do eiusmod teme.</p>
                               <div class="main-text-button">
                                   <div class="scroll-to-section"><a href="#send-recipe">Veja a receita completa <i class="fa fa-angle-down"></i></a></div>
@@ -99,7 +99,7 @@
                     <div class="item">
                         <div class='card card5'>
                             <div class='info'>
-                              <h1 class='title'>Klassy Cup Cake</h1>
+                              <h1 class='title'>Cup Cake</h1>
                               <p class='description'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sedii do eiusmod teme.</p>
                               <div class="main-text-button">
                                   <div class="scroll-to-section"><a href="#send-recipe">Veja a receita completa <i class="fa fa-angle-down"></i></a></div>
@@ -110,7 +110,7 @@
                     <div class="item">
                         <div class='card card3'>
                             <div class='info'>
-                              <h1 class='title'>Klassic Cake</h1>
+                              <h1 class='title'>Baguete</h1>
                               <p class='description'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sedii do eiusmod teme.</p>
                               <div class="main-text-button">
                                   <div class="scroll-to-section"><a href="#send-recipe">Veja a receita completa <i class="fa fa-angle-down"></i></a></div>
@@ -159,21 +159,21 @@
                                                     <div class="col-lg-12">
                                                         <div class="tab-item">
                                                             <img src="assets/images/tab-item-01.png" alt="">
-                                                            <h4>Fresh Chicken Salad</h4>
+                                                            <h4>Maminha assada com cerveja preta</h4>
                                                             <p>Lorem ipsum dolor sit amet, consectetur koit adipiscing elit, sed do.</p>
                                                         </div>
                                                     </div>
                                                     <div class="col-lg-12">
                                                         <div class="tab-item">
                                                             <img src="assets/images/tab-item-02.png" alt="">
-                                                            <h4>Orange Juice</h4>
+                                                            <h4>Croquete Tudo Guloso</h4>
                                                             <p>Lorem ipsum dolor sit amet, consectetur koit adipiscing elit, sed do.</p>
                                                         </div>
                                                     </div>
                                                     <div class="col-lg-12">
                                                         <div class="tab-item">
                                                             <img src="assets/images/tab-item-03.png" alt="">
-                                                            <h4>Fruit Salad</h4>
+                                                            <h4>Bife á parmediana</h4>
                                                             <p>Lorem ipsum dolor sit amet, consectetur koit adipiscing elit, sed do.</p>
                                                         </div>
                                                     </div>
@@ -186,21 +186,21 @@
                                                     <div class="col-lg-12">
                                                         <div class="tab-item">
                                                             <img src="assets/images/tab-item-04.png" alt="">
-                                                            <h4>Eggs Omelette</h4>
+                                                            <h4>Macarrão á Carbonara</h4>
                                                             <p>Lorem ipsum dolor sit amet, consectetur koit adipiscing elit, sed do.</p>
                                                         </div>
                                                     </div>
                                                     <div class="col-lg-12">
                                                         <div class="tab-item">
                                                             <img src="assets/images/tab-item-05.png" alt="">
-                                                            <h4>Dollma Pire</h4>
+                                                            <h4>Frango á Passarinho</h4>
                                                             <p>Lorem ipsum dolor sit amet, consectetur koit adipiscing elit, sed do.</p>
                                                         </div>
                                                     </div>
                                                     <div class="col-lg-12">
                                                         <div class="tab-item">
                                                             <img src="assets/images/tab-item-06.png" alt="">
-                                                            <h4>Omelette & Cheese</h4>
+                                                            <h4>Costelinha com molho Barbecue</h4>
                                                             <p>Lorem ipsum dolor sit amet, consectetur koit adipiscing elit, sed do.</p>
                                                         </div>
                                                     </div>
@@ -217,21 +217,21 @@
                                                     <div class="col-lg-12">
                                                         <div class="tab-item">
                                                             <img src="assets/images/tab-item-04.png" alt="">
-                                                            <h4>Eggs Omelette</h4>
+                                                            <h4>Bolo de Chocolate</h4>
                                                             <p>Lorem ipsum dolor sit amet, consectetur koit adipiscing elit, sed do.</p>
                                                         </div>
                                                     </div>
                                                     <div class="col-lg-12">
                                                         <div class="tab-item">
                                                             <img src="assets/images/tab-item-05.png" alt="">
-                                                            <h4>Dollma Pire</h4>
+                                                            <h4>Mousse de Limão</h4>
                                                             <p>Lorem ipsum dolor sit amet, consectetur koit adipiscing elit, sed do.</p>
                                                         </div>
                                                     </div>
                                                     <div class="col-lg-12">
                                                         <div class="tab-item">
                                                             <img src="assets/images/tab-item-06.png" alt="">
-                                                            <h4>Omelette & Cheese</h4>
+                                                            <h4>Brigadeirão Tudo Guloso</h4>
                                                             <p>Lorem ipsum dolor sit amet, consectetur koit adipiscing elit, sed do.</p>
                                                         </div>
                                                     </div>
@@ -244,21 +244,21 @@
                                                     <div class="col-lg-12">
                                                         <div class="tab-item">
                                                             <img src="assets/images/tab-item-01.png" alt="">
-                                                            <h4>Fresh Chicken Salad</h4>
+                                                            <h4>Pudim de Pão</h4>
                                                             <p>Lorem ipsum dolor sit amet, consectetur koit adipiscing elit, sed do.</p>
                                                         </div>
                                                     </div>
                                                     <div class="col-lg-12">
                                                         <div class="tab-item">
                                                             <img src="assets/images/tab-item-02.png" alt="">
-                                                            <h4>Orange Juice</h4>
+                                                            <h4>Pavê de Chocolate</h4>
                                                             <p>Lorem ipsum dolor sit amet, consectetur koit adipiscing elit, sed do.</p>
                                                         </div>
                                                     </div>
                                                     <div class="col-lg-12">
                                                         <div class="tab-item">
                                                             <img src="assets/images/tab-item-03.png" alt="">
-                                                            <h4>Fruit Salad</h4>
+                                                            <h4>Palha Italiana</h4>
                                                             <p>Lorem ipsum dolor sit amet, consectetur koit adipiscing elit, sed do.</p>
                                                         </div>
                                                     </div>
@@ -275,21 +275,21 @@
                                                     <div class="col-lg-12">
                                                         <div class="tab-item">
                                                             <img src="assets/images/tab-item-05.png" alt="">
-                                                            <h4>Eggs Omelette</h4>
+                                                            <h4>Blood Mary</h4>
                                                             <p>Lorem ipsum dolor sit amet, consectetur koit adipiscing elit, sed do.</p>
                                                         </div>
                                                     </div>
                                                     <div class="col-lg-12">
                                                         <div class="tab-item">
                                                             <img src="assets/images/tab-item-03.png" alt="">
-                                                            <h4>Orange Juice</h4>
+                                                            <h4>Cuba-libre</h4>
                                                             <p>Lorem ipsum dolor sit amet, consectetur koit adipiscing elit, sed do.</p>
                                                         </div>
                                                     </div>
                                                     <div class="col-lg-12">
                                                         <div class="tab-item">
                                                             <img src="assets/images/tab-item-02.png" alt="">
-                                                            <h4>Fruit Salad</h4>
+                                                            <h4>Capirinha de Vinho</h4>
                                                             <p>Lorem ipsum dolor sit amet, consectetur koit adipiscing elit, sed do.</p>
                                                         </div>
                                                     </div>
@@ -302,14 +302,14 @@
                                                     <div class="col-lg-12">
                                                         <div class="tab-item">
                                                             <img src="assets/images/tab-item-06.png" alt="">
-                                                            <h4>Fresh Chicken Salad</h4>
+                                                            <h4>Mojito</h4>
                                                             <p>Lorem ipsum dolor sit amet, consectetur koit adipiscing elit, sed do.</p>
                                                         </div>
                                                     </div>
                                                     <div class="col-lg-12">
                                                         <div class="tab-item">
                                                             <img src="assets/images/tab-item-01.png" alt="">
-                                                            <h4>Dollma Pire</h4>
+                                                            <h4>Piña Colada</h4>
                                                             <p>Lorem ipsum dolor sit amet, consectetur koit adipiscing elit, sed do.</p>
                                                         </div>
                                                     </div>
