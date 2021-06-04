@@ -57,66 +57,78 @@
                     <div class="item">
                         <div class='card card1'>
                             <div class='info'>
+
                                 <h1 class='title'>Chocolate Cake</h1>
                                 <p class='description'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sedii do eiusmod teme.</p>
                                 <div class="main-text-button">
                                     <div class="scroll-to-section"><a href="#send-recipe">Veja a receita completa <i class="fa fa-angle-down"></i></a></div>
                                 </div>
+
                             </div>
                         </div>
                     </div>
                     <div class="item">
                         <div class='card card2'>
                             <div class='info'>
+
                                 <h1 class='title'>Klassy Pancake</h1>
                                 <p class='description'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sedii do eiusmod teme.</p>
                                 <div class="main-text-button">
                                     <div class="scroll-to-section"><a href="#send-recipe">Veja a receita completa <i class="fa fa-angle-down"></i></a></div>
                                 </div>
+
                             </div>
                         </div>
                     </div>
                     <div class="item">
                         <div class='card card3'>
                             <div class='info'>
+
                                 <h1 class='title'>Tall Klassy Bread</h1>
                                 <p class='description'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sedii do eiusmod teme.</p>
                                 <div class="main-text-button">
                                     <div class="scroll-to-section"><a href="#send-recipe">Veja a receita completa <i class="fa fa-angle-down"></i></a></div>
                                 </div>
+
                             </div>
                         </div>
                     </div>
                     <div class="item">
                         <div class='card card4'>
                             <div class='info'>
+
                                 <h1 class='title'>Blueberry CheeseCake</h1>
                                 <p class='description'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sedii do eiusmod teme.</p>
                                 <div class="main-text-button">
                                     <div class="scroll-to-section"><a href="#send-recipe">Veja a receita completa <i class="fa fa-angle-down"></i></a></div>
                                 </div>
+
                             </div>
                         </div>
                     </div>
                     <div class="item">
                         <div class='card card5'>
                             <div class='info'>
+
                                 <h1 class='title'>Klassy Cup Cake</h1>
                                 <p class='description'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sedii do eiusmod teme.</p>
                                 <div class="main-text-button">
                                     <div class="scroll-to-section"><a href="#send-recipe">Veja a receita completa <i class="fa fa-angle-down"></i></a></div>
                                 </div>
+
                             </div>
                         </div>
                     </div>
                     <div class="item">
                         <div class='card card3'>
                             <div class='info'>
+
                                 <h1 class='title'>Klassic Cake</h1>
                                 <p class='description'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sedii do eiusmod teme.</p>
                                 <div class="main-text-button">
                                     <div class="scroll-to-section"><a href="#send-recipe">Veja a receita completa <i class="fa fa-angle-down"></i></a></div>
                                 </div>
+
                             </div>
                         </div>
                     </div>
@@ -154,8 +166,10 @@
                         <div class="col-lg-12">
                             <section class='tabs-content'>
                                 <article id='tabs-1'>
+
                                     <?php include_once('includes/salgados.php'); ?>
                                 </article>
+
                                 <article id='tabs-2'>
                                     <div class="row">
                                         <div class="col-lg-6">
@@ -164,21 +178,21 @@
                                                     <div class="col-lg-12">
                                                         <div class="tab-item">
                                                             <img src="assets/images/tab-item-04.png" alt="">
-                                                            <h4>Eggs Omelette</h4>
+                                                            <h4>Bolo de Chocolate</h4>
                                                             <p>Lorem ipsum dolor sit amet, consectetur koit adipiscing elit, sed do.</p>
                                                         </div>
                                                     </div>
                                                     <div class="col-lg-12">
                                                         <div class="tab-item">
                                                             <img src="assets/images/tab-item-05.png" alt="">
-                                                            <h4>Dollma Pire</h4>
+                                                            <h4>Mousse de Limão</h4>
                                                             <p>Lorem ipsum dolor sit amet, consectetur koit adipiscing elit, sed do.</p>
                                                         </div>
                                                     </div>
                                                     <div class="col-lg-12">
                                                         <div class="tab-item">
                                                             <img src="assets/images/tab-item-06.png" alt="">
-                                                            <h4>Omelette & Cheese</h4>
+                                                            <h4>Brigadeirão Tudo Guloso</h4>
                                                             <p>Lorem ipsum dolor sit amet, consectetur koit adipiscing elit, sed do.</p>
                                                         </div>
                                                     </div>
@@ -191,21 +205,21 @@
                                                     <div class="col-lg-12">
                                                         <div class="tab-item">
                                                             <img src="assets/images/tab-item-01.png" alt="">
-                                                            <h4>Fresh Chicken Salad</h4>
+                                                            <h4>Pudim de Pão</h4>
                                                             <p>Lorem ipsum dolor sit amet, consectetur koit adipiscing elit, sed do.</p>
                                                         </div>
                                                     </div>
                                                     <div class="col-lg-12">
                                                         <div class="tab-item">
                                                             <img src="assets/images/tab-item-02.png" alt="">
-                                                            <h4>Orange Juice</h4>
+                                                            <h4>Pavê de Chocolate</h4>
                                                             <p>Lorem ipsum dolor sit amet, consectetur koit adipiscing elit, sed do.</p>
                                                         </div>
                                                     </div>
                                                     <div class="col-lg-12">
                                                         <div class="tab-item">
                                                             <img src="assets/images/tab-item-03.png" alt="">
-                                                            <h4>Fruit Salad</h4>
+                                                            <h4>Palha Italiana</h4>
                                                             <p>Lorem ipsum dolor sit amet, consectetur koit adipiscing elit, sed do.</p>
                                                         </div>
                                                     </div>
@@ -222,21 +236,21 @@
                                                     <div class="col-lg-12">
                                                         <div class="tab-item">
                                                             <img src="assets/images/tab-item-05.png" alt="">
-                                                            <h4>Eggs Omelette</h4>
+                                                            <h4>Blood Mary</h4>
                                                             <p>Lorem ipsum dolor sit amet, consectetur koit adipiscing elit, sed do.</p>
                                                         </div>
                                                     </div>
                                                     <div class="col-lg-12">
                                                         <div class="tab-item">
                                                             <img src="assets/images/tab-item-03.png" alt="">
-                                                            <h4>Orange Juice</h4>
+                                                            <h4>Cuba-libre</h4>
                                                             <p>Lorem ipsum dolor sit amet, consectetur koit adipiscing elit, sed do.</p>
                                                         </div>
                                                     </div>
                                                     <div class="col-lg-12">
                                                         <div class="tab-item">
                                                             <img src="assets/images/tab-item-02.png" alt="">
-                                                            <h4>Fruit Salad</h4>
+                                                            <h4>Capirinha de Vinho</h4>
                                                             <p>Lorem ipsum dolor sit amet, consectetur koit adipiscing elit, sed do.</p>
                                                         </div>
                                                     </div>
@@ -249,14 +263,14 @@
                                                     <div class="col-lg-12">
                                                         <div class="tab-item">
                                                             <img src="assets/images/tab-item-06.png" alt="">
-                                                            <h4>Fresh Chicken Salad</h4>
+                                                            <h4>Mojito</h4>
                                                             <p>Lorem ipsum dolor sit amet, consectetur koit adipiscing elit, sed do.</p>
                                                         </div>
                                                     </div>
                                                     <div class="col-lg-12">
                                                         <div class="tab-item">
                                                             <img src="assets/images/tab-item-01.png" alt="">
-                                                            <h4>Dollma Pire</h4>
+                                                            <h4>Piña Colada</h4>
                                                             <p>Lorem ipsum dolor sit amet, consectetur koit adipiscing elit, sed do.</p>
                                                         </div>
                                                     </div>
