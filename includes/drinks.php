@@ -1,5 +1,5 @@
 <?php
-$consulta_salgados = "SELECT id_receita, titulo_receita, imagem FROM receita WHERE aprovada = 1 AND tipo_receita_id = 1 ORDER BY titulo_receita";
+$consulta_salgados = "SELECT id_receita, titulo_receita, imagem FROM receita WHERE aprovada = 1 AND tipo_receita_id = 3 ORDER BY titulo_receita";
 $resultado_salgados = mysqli_query($conexao, $consulta_salgados);
 if (!$consulta_salgados) {
     echo "Deu ruim!";
@@ -16,7 +16,7 @@ if (!$consulta_salgados) {
                     base64_decode($salgados["imagem"]);
                     echo "<div class='col-lg-12'>";
                     echo "<div class='tab-item'>";
-                    echo "<img src='data:image/gif;base64," . $salgados["imagem"] . "' />";
+                    echo "<img src='data:image/gif;base64," . $salgados["imagem"] . "' style='width: 100px; height: 100px;'/>";
                     echo "<h4>" . $salgados["titulo_receita"] . "</h4>";
                     echo "</div>";
                     echo "</div>";
