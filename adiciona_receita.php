@@ -14,7 +14,13 @@
 
     $query1 = "INSERT INTO autor (nome_autor, email_autor) VALUES ('$nome', '$email')";
     $resultado1 = mysqli_query($conexao, $query1);
-    $autor_id = mysqli_insert_id($conexao);
+    if(!$resultado1){
+        $query1 = "SELECT id_autor FROM autor WHERE nome_autor = '$nome' or email_autor = '$email'";
+        $resultado1 = mysqli_query($conexao, $query1);
+        $autor_id = $resultado1;
+    }else{
+        $autor_id = mysqli_insert_id($conexao);
+    }
 
     $query2 = "INSERT INTO receita (titulo_receita, modo_preparo, imagem, aprovada, usuarios_id_usuario, porcoes, tipo_receita_id) VALUES ('$nomeReceita', '$modo_preparo', '$imagem[1]', 0, 1, '$porcoes', '$tipo_receita')";
     $resultado2 = mysqli_query($conexao, $query2);
@@ -24,5 +30,4 @@
         $query3 = "INSERT INTO receita_ingrediente (receita_id_receita, ingrediente_id_ingrediente, quantidade, medida_id_medida, tipo_ingrediente_id_tipo) VALUES ('$receita_id', '$lista_ingredientes[$i]', '$lista_qtd[$i]', '$lista_unmedida[$i]', '$lista_tipo[$i]')";
         $resultado3 = mysqli_query($conexao, $query3);
     }
-    echo "Receita enviada com sucesso para avaliação da administração! Assim que aprovado, ela aparecerá em nosso site! obrigado! :)";    
-?>
+    echo "Receita enviada com sucesso para avaliação da administração! Assim que aprovado, ela aparecerá em nosso site! obrigado! :)";

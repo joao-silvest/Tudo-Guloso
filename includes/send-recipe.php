@@ -98,7 +98,7 @@ if (!$resultado_tipo_receita) {
                                     </div>
                                     <div>
                                         <div class="d-flex">
-                                            <select id="options_ingredientes" class="form-select mr-3 select-ingredient-post" aria-label="Default select example" style="width: 30%;">
+                                            <select id="options_ingredientes" name="select-ingredientes-duplicate" class="form-select mr-3 select-ingredient-post" aria-label="Default select example" style="width: 30%;">
                                                 <?php
                                                 while ($ingrediente = mysqli_fetch_assoc($resultado_ingredientes)) {
                                                     echo "<option value=" . $ingrediente['id_ingredientes'] . ">" . $ingrediente['nome_ingrediente'] . "</option>";
@@ -184,12 +184,14 @@ if (!$resultado_tipo_receita) {
                 data: postdata,
             })
             .done(function(data) {
-                alert("Ingrediente adicionado com sucesso");
+                alert("Ingrediente adicionado com sucesso!");
+                var options_ingredientes = document.getElementsByClassName('select-ingredient-post');
+                var options_ingredientes = options_ingredientes[options_ingredientes.length - 1].innerHTML;
                 var options_un_medida = document.getElementById('options_unMedida').innerHTML;
                 var options_tipo_ingred = document.getElementById('options_tipo_ingred').innerHTML;
                 var listaIngredientes = document.getElementById('ingredients-options');
                 var adicionar = document.createElement('div')
-                adicionar.innerHTML = "<div class='d-flex'> <select class='form-select mr-3' aria-label='Default select example' style='width: 30%;'> <option value='" + data + "'>" + ingrediente + "</option></select> <input class='mr-3' name='qtd' type='number' id='qtd' placeholder='' style='width: 15%;'> <select class='form-select mr-3' aria-label='Default select example' style='width: 30%;'>" + options_un_medida + "</select> <select class='form-select mr-3' aria-label='Default select example' style='width: 25%;'>" + options_tipo_ingred + "</select><a class='btn add-ingredient mt-1' onclick='remove_ingrediente(this)' style='height: 35px;'>x</a></div>"
+                adicionar.innerHTML = "<div class='d-flex'> <select name='select-ingredientes-to-duplicate' class='form-select mr-3 select-ingredient-post' aria-label='Default select example' style='width: 30%;'>" + options_ingredientes + " <option value='" + data + "' selected>" + ingrediente + "</option></select> <input class='mr-3 input-qtd-post' name='qtd' type='number' id='qtd' placeholder='' style='width: 15%;'> <select class='form-select mr-3 select-unmedida-post' aria-label='Default select example' style='width: 30%;'>" + options_un_medida + "</select> <select class='form-select mr-3 select-tipo-post' aria-label='Default select example' style='width: 25%;'>" + options_tipo_ingred + "</select><a class='btn add-ingredient mt-1' onclick='remove_ingrediente(this)' style='height: 35px;'>x</a></div>";
                 listaIngredientes.appendChild(adicionar);
 
             })
