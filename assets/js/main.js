@@ -125,3 +125,93 @@ function insertRecipe() {
     sendRecipe(nome, email, nomeReceita, porcoes, lista_ingredientes, lista_qtd, lista_unmedida, lista_tipo, imagem, modo_preparo, tipo_receita);
     
 }
+
+function get_recipe_info(id){
+    $.ajax({
+        url: "pega_receita.php",
+        type: "POST",
+        data: {
+            id: id
+        },
+    })
+    .done(function(data) {
+        // for(element in data[0]){
+        //     alert(element)
+        // }
+        document.getElementById('modal-recipe-title').innerHTML = data[0]['titulo_receita'];
+        document.getElementById('modal-recipe-img').src = 'data:imagem/gif;base64,' + data[0]['imagem'];
+        document.getElementById('div-modo-preparo').innerHTML = data[0]['modo_preparo'];
+
+    })
+    .fail(function(jqXHR, textStatus, msg, data) {
+        alert("Ocorreu um erro, a receita não foi encontrada");
+    });
+
+    $.ajax({
+        url: "pega_ingredientes.php",
+        type: "POST",
+        data: {
+            id: id
+        },
+    })
+    .done(function(data) {
+        //alert(data)
+        obj_json = JSON.parse(data)
+        for(i = 0; i < obj_json.length; i++){
+            if(obj_json[i]['nome_tipo'] == 'massa'){
+                $('#modal-massa').show();
+                div_lista = document.getElementById('massa')
+                adicionar_ingrediente = "<p>• " + obj_json[i]['quantidade'] + "  " + obj_json[i]['nome_medida'] + " de "  + obj_json[i]['nome_ingrediente']
+                div_lista.innerHTML += adicionar_ingrediente;
+            }
+            else if(obj_json[i]['nome_tipo'] == 'recheio'){
+                $('#modal-recheio').show();
+                div_lista = document.getElementById('recheio')
+                adicionar_ingrediente = "<p>• " + obj_json[i]['quantidade'] + "  " + obj_json[i]['nome_medida'] + " de "  + obj_json[i]['nome_ingrediente']
+                div_lista.innerHTML += adicionar_ingrediente;
+            }
+            else if(obj_json[i]['nome_tipo'] == 'cobertura'){
+                $('#modal-cobertura').show();
+                div_lista = document.getElementById('cobertura')
+                adicionar_ingrediente = "<p>• " + obj_json[i]['quantidade'] + "  " + obj_json[i]['nome_medida'] + " de "  + obj_json[i]['nome_ingrediente']
+                div_lista.innerHTML += adicionar_ingrediente;
+            }
+            else if(obj_json[i]['nome_tipo'] == 'molho'){
+                $('#modal-molho').show();
+                div_lista = document.getElementById('molho')
+                adicionar_ingrediente = "<p>• " + obj_json[i]['quantidade'] + "  " + obj_json[i]['nome_medida'] + " de "  + obj_json[i]['nome_ingrediente']
+                div_lista.innerHTML += adicionar_ingrediente;
+            }
+            else if(obj_json[i]['nome_tipo'] == 'geral'){
+                $('#modal-geral').show();
+                div_lista = document.getElementById('geral')
+                adicionar_ingrediente = "<p>• " + obj_json[i]['quantidade'] + "  " + obj_json[i]['nome_medida'] + " de "  + obj_json[i]['nome_ingrediente']
+                div_lista.innerHTML += adicionar_ingrediente;
+            }
+            
+        }
+
+    })
+    .fail(function(jqXHR, textStatus, msg, data) {
+        alert("Ocorreu um erro, a receita não foi encontrada");
+    });
+}
+
+function troca_ingrediente_div(div_id){
+    $('#divs-ingredientes div').hide();
+    $('#' + div_id).show();
+}
+
+$('#exampleModal').on('hidden.bs.modal', function () {
+    document.getElementById('massa').innerHTML = "";
+    $('#modal-massa').hide();
+    document.getElementById('recheio').innerHTML = "";
+    $('#modal-recheio').hide();
+    document.getElementById('cobertura').innerHTML = "";
+    $('#modal-cobertura').hide();
+    document.getElementById('molho').innerHTML = "";
+    $('#modal-molho').hide();
+    document.getElementById('geral').innerHTML = "";
+    $('#modal-geral').hide();
+
+})

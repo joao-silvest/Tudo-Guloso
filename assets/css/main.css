@@ -855,22 +855,6 @@ ul.slick-dots {
   overflow: hidden;
 }
 
-.card1 {
-  background-image: url(../images/menu-item-01.jpg);
-}
-.card2 {
-  background-image: url(../images/menu-item-02.jpg);
-}
-.card3 {
-  background-image: url(../images/menu-item-03.jpg);
-}
-.card4 {
-  background-image: url(../images/menu-item-04.jpg);
-}
-.card5 {
-  background-image: url(../images/menu-item-05.jpg);
-}
-
 .info {
   position: relative;
   width: 100%;
@@ -1011,7 +995,7 @@ ul.slick-dots {
 #send-recipe {
   margin-top: 120px;
   padding: 120px 0px;
-  background-image: url(../images/reservation-bg.jpg);
+  background-color: #1e1e1e;
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1218,7 +1202,7 @@ offers
 }
 #offers .tabs-content .tab-item {
   position: relative;
-  margin-bottom: 60px;
+  height: 100px;
 }
 #offers .tabs-content img {
   float: left;
@@ -1519,3 +1503,25 @@ responsive
   background-color: #f7695c;
   color: #fff;
 }
+
+.img-list{
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+
+.pre-btn{
+  color: #f7695c;
+  font-size: 18px;
+}
+
+.btn-modal{
+  color: #f7695c;
+}
+
+
+
+
+
+
+

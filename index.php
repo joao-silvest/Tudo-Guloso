@@ -45,7 +45,6 @@
             <div class="row">
                 <div class="col-lg-4">
                     <div class="section-heading">
-
                         <h2>Especiais do dia</h2>
                     </div>
                 </div>
@@ -54,84 +53,7 @@
         <div class="menu-item-carousel">
             <div class="col-lg-12">
                 <div class="owl-menu-item owl-carousel">
-                    <div class="item">
-                        <div class='card card1'>
-                            <div class='info'>
-
-                                <h1 class='title'>Chocolate Cake</h1>
-                                <p class='description'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sedii do eiusmod teme.</p>
-                                <div class="main-text-button">
-                                    <div class="scroll-to-section"><a href="#send-recipe">Veja a receita completa <i class="fa fa-angle-down"></i></a></div>
-                                </div>
-
-                            </div>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class='card card2'>
-                            <div class='info'>
-
-                                <h1 class='title'>Klassy Pancake</h1>
-                                <p class='description'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sedii do eiusmod teme.</p>
-                                <div class="main-text-button">
-                                    <div class="scroll-to-section"><a href="#send-recipe">Veja a receita completa <i class="fa fa-angle-down"></i></a></div>
-                                </div>
-
-                            </div>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class='card card3'>
-                            <div class='info'>
-
-                                <h1 class='title'>Tall Klassy Bread</h1>
-                                <p class='description'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sedii do eiusmod teme.</p>
-                                <div class="main-text-button">
-                                    <div class="scroll-to-section"><a href="#send-recipe">Veja a receita completa <i class="fa fa-angle-down"></i></a></div>
-                                </div>
-
-                            </div>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class='card card4'>
-                            <div class='info'>
-
-                                <h1 class='title'>Blueberry CheeseCake</h1>
-                                <p class='description'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sedii do eiusmod teme.</p>
-                                <div class="main-text-button">
-                                    <div class="scroll-to-section"><a href="#send-recipe">Veja a receita completa <i class="fa fa-angle-down"></i></a></div>
-                                </div>
-
-                            </div>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class='card card5'>
-                            <div class='info'>
-
-                                <h1 class='title'>Klassy Cup Cake</h1>
-                                <p class='description'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sedii do eiusmod teme.</p>
-                                <div class="main-text-button">
-                                    <div class="scroll-to-section"><a href="#send-recipe">Veja a receita completa <i class="fa fa-angle-down"></i></a></div>
-                                </div>
-
-                            </div>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class='card card3'>
-                            <div class='info'>
-
-                                <h1 class='title'>Klassic Cake</h1>
-                                <p class='description'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sedii do eiusmod teme.</p>
-                                <div class="main-text-button">
-                                    <div class="scroll-to-section"><a href="#send-recipe">Veja a receita completa <i class="fa fa-angle-down"></i></a></div>
-                                </div>
-
-                            </div>
-                        </div>
-                    </div>
+                    <?php require_once('includes/carrossel.php') ?>
                 </div>
             </div>
         </div>
@@ -155,9 +77,9 @@
                                 <div class="row">
                                     <div class="col-lg-6 offset-lg-3">
                                         <ul>
-                                            <li><a href='#tabs-1'><img src="assets/images/tab-icon-01.png" alt="">Salgados</a></li>
-                                            <li><a href='#tabs-2'><img src="assets/images/tab-icon-02.png" alt="">Doces</a></a></li>
-                                            <li><a href='#tabs-3'><img src="assets/images/tab-icon-03.png" alt="">Drinks</a></a></li>
+                                            <li><a href='#tabs-1'><img src="assets/images/pizza.png" alt="" style="width: 56px; height: 56px">Salgados</a></li>
+                                            <li><a href='#tabs-2'><img src="assets/images/cake.png" alt="" style="width: 56px; height: 56px">Doces</a></a></li>
+                                            <li><a href='#tabs-3'><img src="assets/images/juice.png" alt="" style="width: 56px; height: 56px">Drinks</a></a></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -166,7 +88,6 @@
                         <div class="col-lg-12">
                             <section class='tabs-content'>
                                 <article id='tabs-1'>
-
                                     <?php include_once('includes/salgados.php'); ?>
                                 </article>
 
@@ -177,7 +98,7 @@
                                                 <div class="left-list">
                                                     <div class="col-lg-12">
                                                         <div class="tab-item">
-                                                            <img src="assets/images/Amarelo.jpg" alt="">
+                                                            <img src="assets/images/tab-item-04.png" alt="">
                                                             <h4>Bolo de Chocolate</h4>
                                                             <p>Lorem ipsum dolor sit amet, consectetur koit adipiscing elit, sed do.</p>
                                                         </div>
@@ -229,11 +150,7 @@
                                     </div>
                                 </article>
                                 <article id='tabs-3'>
-                                    <div class="row">
-                                        <div class="col-lg-6">
-                                        <?php include_once('includes/drinks.php'); ?>
-                                        </div>
-                                    </div>
+                                <?php include_once('includes/drinks.php'); ?>
                                 </article>
                             </section>
                         </div>
@@ -243,7 +160,10 @@
         </div>
     </section>
     <!-- incluir footer -->
-    <?php include_once("includes/send-recipe.php") ?>:
+    <?php include_once("includes/send-recipe.php") ?>
+    <?php
+    require_once("includes/modal-recipe.php")
+    ?>
 
     <script src="assets/js/jquery-2.1.0.min.js"></script>
 
