@@ -1,6 +1,4 @@
-<?php require_once("includes/connection.php");
-//   require_once("includes/functions.php")
-?>
+<?php require_once("includes/connection.php");?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -64,7 +62,7 @@
             <div class="row">
                 <div class="col-lg-4 offset-lg-4 text-center">
                     <div class="section-heading">
-                        <h6>Nossas receitas</h6>
+                        <h6 class="nossas-receitas">Nossas receitas</h6>
                         <h2>Selecione a categoria de receita</h2>
                     </div>
                 </div>
@@ -92,62 +90,7 @@
                                 </article>
 
                                 <article id='tabs-2'>
-                                    <div class="row">
-                                        <div class="col-lg-6">
-                                            <div class="row">
-                                                <div class="left-list">
-                                                    <div class="col-lg-12">
-                                                        <div class="tab-item">
-                                                            <img src="assets/images/tab-item-04.png" alt="">
-                                                            <h4>Bolo de Chocolate</h4>
-                                                            <p>Lorem ipsum dolor sit amet, consectetur koit adipiscing elit, sed do.</p>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-lg-12">
-                                                        <div class="tab-item">
-                                                            <img src="assets/images/tab-item-05.png" alt="">
-                                                            <h4>Mousse de Limão</h4>
-                                                            <p>Lorem ipsum dolor sit amet, consectetur koit adipiscing elit, sed do.</p>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-lg-12">
-                                                        <div class="tab-item">
-                                                            <img src="assets/images/tab-item-06.png" alt="">
-                                                            <h4>Brigadeirão Tudo Guloso</h4>
-                                                            <p>Lorem ipsum dolor sit amet, consectetur koit adipiscing elit, sed do.</p>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-6">
-                                            <div class="row">
-                                                <div class="right-list">
-                                                    <div class="col-lg-12">
-                                                        <div class="tab-item">
-                                                            <img src="assets/images/tab-item-01.png" alt="">
-                                                            <h4>Pudim de Pão</h4>
-                                                            <p>Lorem ipsum dolor sit amet, consectetur koit adipiscing elit, sed do.</p>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-lg-12">
-                                                        <div class="tab-item">
-                                                            <img src="assets/images/tab-item-02.png" alt="">
-                                                            <h4>Pavê de Chocolate</h4>
-                                                            <p>Lorem ipsum dolor sit amet, consectetur koit adipiscing elit, sed do.</p>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-lg-12">
-                                                        <div class="tab-item">
-                                                            <img src="assets/images/tab-item-03.png" alt="">
-                                                            <h4>Palha Italiana</h4>
-                                                            <p>Lorem ipsum dolor sit amet, consectetur koit adipiscing elit, sed do.</p>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
+                                <?php include_once('includes/doces.php'); ?>
                                 </article>
                                 <article id='tabs-3'>
                                 <?php include_once('includes/drinks.php'); ?>

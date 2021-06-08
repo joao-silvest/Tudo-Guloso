@@ -1,11 +1,11 @@
 <?php
-$consulta_salgados = "SELECT id_receita, titulo_receita, imagem FROM receita WHERE aprovada = 1 AND tipo_receita_id = 3 ORDER BY id_receita DESC LIMIT 3";
+$consulta_salgados = "SELECT id_receita, titulo_receita, imagem FROM receita WHERE aprovada = 1 AND tipo_receita_id = 2 ORDER BY id_receita DESC LIMIT 3";
 $resultado_salgados = mysqli_query($conexao, $consulta_salgados);
 if (!$consulta_salgados) {
     die("Falha na consulta do Banco de Dados");
 }
 
-$consulta_top_salgados = "SELECT id_receita, titulo_receita, imagem FROM receita WHERE aprovada = 1 AND tipo_receita_id = 3 ORDER BY visualizacoes DESC LIMIT 3";
+$consulta_top_salgados = "SELECT id_receita, titulo_receita, imagem FROM receita WHERE aprovada = 1 AND tipo_receita_id = 2 ORDER BY visualizacoes DESC LIMIT 3";
 $resultado_top_salgados = mysqli_query($conexao, $consulta_top_salgados);
 if (!$consulta_top_salgados) {
     die("Falha na consulta do Banco de Dados");

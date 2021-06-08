@@ -1,11 +1,11 @@
 <?php
-$consulta_salgados = "SELECT id_receita, titulo_receita, imagem FROM receita WHERE aprovada = 1 AND tipo_receita_id = 1 ORDER BY titulo_receita LIMIT 3";
+$consulta_salgados = "SELECT id_receita, titulo_receita, imagem FROM receita WHERE aprovada = 1 AND tipo_receita_id = 1 ORDER BY id_receita DESC LIMIT 3";
 $resultado_salgados = mysqli_query($conexao, $consulta_salgados);
 if (!$consulta_salgados) {
     die("Falha na consulta do Banco de Dados");
 }
 
-$consulta_top_salgados = "SELECT id_receita, titulo_receita, imagem FROM receita WHERE aprovada = 1 AND tipo_receita_id = 1 ORDER BY titulo_receita DESC LIMIT 3";
+$consulta_top_salgados = "SELECT id_receita, titulo_receita, imagem FROM receita WHERE aprovada = 1 AND tipo_receita_id = 1 ORDER BY visualizacoes DESC LIMIT 3";
 $resultado_top_salgados = mysqli_query($conexao, $consulta_top_salgados);
 if (!$consulta_top_salgados) {
     die("Falha na consulta do Banco de Dados");
@@ -14,6 +14,7 @@ if (!$consulta_top_salgados) {
 
 <div class="row" style=" width: 130%;">
     <div class="col-lg-6">
+    <h4 class="mb-4" style="color: #fb5849;">Últimas Receitas adicionadas</h4>
         <div class="row">
             <div class="left-list">
                 <?php
@@ -33,6 +34,7 @@ if (!$consulta_top_salgados) {
         </div>
     </div>
     <div class="col-lg-6">
+    <h4 class="mb-4" style="color: #fb5849;">Receitas mais visualziadas</h4>
         <div class="row">
             <div class="right-list">
                 <?php

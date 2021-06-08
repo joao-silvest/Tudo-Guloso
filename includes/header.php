@@ -8,14 +8,7 @@
                         </a>
                         <ul class="nav">
                             <li class="scroll-to-section"><a href="#top" class="active">Home</a></li>
-                            <li class="submenu">
-                                <a href="javascript:;">Receitas</a>
-                                <ul>
-                                    <li><a href="#">Salgados</a></li>
-                                    <li><a href="#">Doces</a></li>
-                                    <li><a href="#">Drinks</a></li>
-                                </ul>
-                            </li>
+                            <li class="scroll-to-section"><a href="#offers">Receitas</a></li>
                             <li class="scroll-to-section"><a href="#send-recipe">Envie sua receita</a></li> 
                         </ul>        
                         <a class='menu-trigger'>
